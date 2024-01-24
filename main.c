@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+
     char name[255];
 
     printf("Enter your name: ");
