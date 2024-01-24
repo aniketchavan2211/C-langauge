@@ -1,6 +1,6 @@
 ## C Language
 
-#### Introduction to C 
+### Introduction to C 
 
 C was invented in **1972**. It's one of the oldest language to ne used
 even today.
@@ -33,7 +33,7 @@ At the beginning of the code header files means other files are mentioned to lin
 
 6. **Execution:** The code is then finally executed to get the desired output. 
 
-#### Hello World 
+### Hello World 
 
 To display output on screen used `printf()` built-in  Function. 
 
@@ -104,7 +104,7 @@ clang file.c
 system("clear");
 ```
 
-#### Syntax 
+### Syntax 
 
 ```c
 #include <header file>
@@ -123,7 +123,7 @@ int main() {
 }
 ```  
 
-####  Comments
+###  Comments
 
 Comments help programmers to understand the program code does.
 Comments are short summary or description about code.
@@ -131,7 +131,7 @@ Comments are short summary or description about code.
 Comments are lgnored by Compiler, Comments are not compiled, write a comment to understand the code how it's code execute. 
 
 
-##### Single-line Comments 
+#### Single-line Comments 
 
 `// Comments` you can one line comment, the line will be ignored by compiler, you can also comment the code.
 
@@ -142,7 +142,7 @@ You can add `//` at beginning of line not all.
 // Comments are here 
 ```
 
-##### Mutli-line Comments
+#### Mutli-line Comments
 
 ```C 
 /* Begining of 
@@ -154,7 +154,7 @@ Multi-line Comments */
 
 Use for multi-line.
 
-#### Input / Output
+### Input / Output
 
 prinf() is use for ouput.
 ```C
@@ -169,7 +169,7 @@ scanf("%d", &var);
 ```
 take input as number and store in `var` variable name.
 
-#### Variables and Values
+### Variables and Values
 
 What if you want store something. 
 Variables are like containers or boxes stored values like numbers, string, decimals numbers, etc.
@@ -196,7 +196,7 @@ int main() {
 }
 ```
 
-#### Datatypes 
+### Datatypes 
 
 Values are of many types:
 
@@ -212,7 +212,7 @@ floating-point number/decimal number with 7 decimal places 0.123
 - double
 decimal number with 15 decimal places 0.123456789012345 
 
-##### print Variables
+#### print Variables
 
 ```c
 int varname = 23;
@@ -233,13 +233,13 @@ use as A
 ```
 `use as` is a string enclosed in double quotation and `%c` specify the variable use here is `%c` for character  
 
-#### Decision Making 
+### Decision Making 
 
 Computer can take decision on based of input or according to result. 
 
 `True` or `False`, `Yes` or `No` are examples of decisions.
 
-##### Conditional Statements
+#### Conditional Statements
 
 - if 
 - else 
@@ -270,19 +270,19 @@ if (a > 2) {
 a is less than 2
 ```
 
-#### Loops 
+### Loops 
 
 What if you need to repeat the task/function/... 
 
 We use Loops for it.
 
-##### Types of Loops 
+#### Types of Loops 
 
 - for loops
 - while loops
 - do... while Loops
 
-###### For loops
+##### For loops
 
 **Syntax:**
 ```c
@@ -319,7 +319,7 @@ Hello
 Hello
 ```
 
-###### While loops
+##### While loops
 
 **Syntax:**
 ```C 
@@ -355,7 +355,7 @@ Hi // i = 4
 Hi // i = 5
 ```
 
-###### Do... While loops 
+##### Do... While loops 
 
 **Syntax:**
 ```C 
@@ -376,7 +376,7 @@ do {
 
 This loop will execute at least one time. condition is false then also loop run 1 time. condition check at last.
 
-#### Arrays 
+### Arrays 
 
 Array is variable that contains multiple values but same datatype (numbers/string, etc) and identify by index number. index number start from 0. Arrays value called elements.
 
@@ -411,7 +411,7 @@ array[5] = 9;
 int array[5] = {5, 6, 7, 8, 9};
 ```
 
-##### Accessing Array
+#### Accessing Array
 
 Accessing array by for loop through index.
 
@@ -431,7 +431,7 @@ Value at the element 3 is: 4
 Value at the element 4 is: 5
 ``` 
 
-#### Function 
+### Function 
 
 Function is group of statements.
 
