@@ -60,7 +60,7 @@ We can also declare and initialize the pointer in a single step. This method is 
 int *ptr = &var;
 ```
 
->> **Note**: It is recommended that the pointers should always be initialized to some value before starting using it. Otherwise, it may lead to number of errors.
+> **Note**: It is recommended that the pointers should always be initialized to some value before starting using it. Otherwise, it may lead to number of errors.
 
 3. Pointer Dereferencing
 
